@@ -14,14 +14,9 @@
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 //setup for wifi passwords
-//const char* ssid = "Iaac-Wifi";      // Replace with your WiFi SSID
-//const char* password = "EnterIaac22@";  // Replace with your WiFi password
-//const char* nodeRedEndpoint = "https://wattwiseAI-chatbot.replit.app/data";  // Replace with your Node-RED endpoint
-
-//TMDC WIFI
-const char* ssid = "TMDC Public";      // Replace with your WiFi SSID
-const char* password = "Mart1llo";  // Replace with your WiFi password
-const char* nodeRedEndpoint = "https://wattwiseAI-chatbot.replit.app/data";  // Replace with your Node-RED endpoint
+const char* ssid = "wifi 1234";      // Replace with your WiFi SSID
+const char* password = "12345";  // Replace with your WiFi password
+const char* nodeRedEndpoint = "https://noderedendpointhere";  // Replace with your Node-RED endpoint or any server endpoint for recieving consumption data
 
 
 /*
